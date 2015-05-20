@@ -1,5 +1,5 @@
 //
-//  main.m
+//  AppDelegate.h
 //  PROJECT
 //
 //  Created by Cory Sullivan on 2015-05-20.
@@ -8,6 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, const char * argv[]) {
-    return NSApplicationMain(argc, argv);
-}
+@interface AppDelegate : NSObject <NSApplicationDelegate>
+
+
+@end
+
